@@ -1,0 +1,42 @@
+/* Aplicar propriedades a todos os elementos: '*' */
+/* *{ */
+  /* padding: 0px; */
+  /* margin: 7px; */
+/* } */
+html, body{
+  padding: 0px;
+  margin: 7px;
+}
+body{
+  background-color: #262626;
+  color: #ffd11a;
+}
+/* As classes são representadas pelo ponto '.' Ex :*/
+.menu{
+  background-color: #212121;
+  color: #cca300;
+  text-align: justify;
+  font-size: 18px;
+}
+/* IDs são representados pelo sinal '#' Ex: */
+#rodapePrincipal{
+  background-color: #212121;
+  color: #cca300;
+  text-align: center;
+
+  /* Estilo */
+  border-style: inset;
+  /* Espessura */
+  border-width: 2.5px;
+
+  /* Cor */
+  border-color: #929292;
+}
+.conteudo{
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.cabecalho{
+  text-align: center;
+}
+/* Propriedades aplicadas ao ID possuem prioridade em relação a propriedades aplicadas à classe */
