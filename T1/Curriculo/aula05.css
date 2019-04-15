@@ -1,0 +1,46 @@
+html, body{
+  padding: 0px;
+  margin: 30px;
+}
+body{
+  background-color: #000000;
+}
+.tudo{
+  padding: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+  background-color: #ffffff;
+  align-self: center;
+  font-family: cursive;
+}
+
+
+.cabecalho{
+  background-color: #DDDDDD;
+}
+.titulo {
+  font-size: 24pt;
+  font-weight: bold;
+  float: left;
+}
+.informacoes{
+  font-size: 14pt;
+  float: right;
+}
+
+
+img.small{
+  height: 20px;
+}
+img.medium{
+  height: 40px;
+}
+
+.conteudo{
+  font-size: 14pt;
+}
+.conteudo h3{
+  font-size: 20pt;
+  font-weight: bold;
+}
