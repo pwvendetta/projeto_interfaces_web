@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+  <title>Compra : Items</title>
+
+  <!-- IMPORTAÇÃO DO JS -->
+  <script src=" jquery-3.4.1.js" charset="utf-8"></script>
+  <!-- UTILIZAÇÃO DO JavaScript E jQuery -->
+  <script>
+  $(document).ready( function(){
+    $("#teste").click(function() {
+      alert("batata");
+      $("#teste2").show();
+      // $("#teste").click(function() {
+      //   $("#teste2").hide();
+      // });
+    });
+
+
+    // alert("FUNCIONOU!");
+  } );
+  </script>
+
+
+
+</head>
+<body class="bg-black">
+  <!-- MENU - INICIO -->
+  <div class="bg-dark m-0 px-5">
+    <!-- Cabeçalho -->
+    <div class="row text-white">
+      <div class="col-sm-1-12 img">
+        <img src="Chair.png" alt="Ícone" class="img-fluid" width="25px">
+      </div>
+      <div class="col-lg">
+        <h2>Furns</h2>
+      </div>
+      <div class="col-sm-1-12">
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+      <div class="col-sm-1-12">
+        <button type="button" class="btn btn-primary">Registro</button>
+      </div>
+    </div>
+    <!-- Botões -->
+    <div class="row">
+      <div class="col-lg">
+        <button class="btn btn-outline-dark pl-5 pr-5 bg-light" type="submit">Início</button>
+      </div>
+      <div class="col-lg">
+        <button class="btn btn-outline-dark pl-5 pr-5 bg-light" type="submit">Comprar</button>
+      </div>
+      <div class="col-lg">
+        <button class="btn btn-outline-dark pl-5 pr-5 bg-light" type="submit">Galeria</button>
+      </div>
+      <div class="col-lg">
+        <button class="btn btn-outline-dark pl-5 pr-5 bg-light" type="submit">Contato</button>
+      </div>
+    </div>
+  </div>
+  <!-- MENU - FIM -->
+
+
+  <div class="container">
+
+    <div class="row text-white">
+      <h1>Compra: Items</h1>
+    </div>
+    <div class="container bg-light my-2">
+      <div class="row">
+        <div class="col-sm2">
+          dbESTILOS
+        </div>
+        <div class="col-sm">
+          dbCATEGORIA
+        </div>
+        <div class="col-sm">
+          dbSUBCATEGORIA
+        </div>
+        <div class="col-sm">
+          dbQUALIDADE
+        </div>
+        <div class="col-sm">
+          PREÇO
+        </div>
+        <div class="col-sm">
+          SEARCH
+        </div>
+
+      </div>
+    </div>
+    <div class="container bg-light my-2">
+      <!-- TABELA SELECIONAR ITEMS  -->
+      <div class="row">
+        <div class="col-lg">
+        <div class="row">
+          <div class="col-lg">
+            <p>NOME</p>
+          </div>
+          <div class="col-sm">
+            <p>ESTILO</p>
+          </div>
+          <div class="col-sm">
+            <p>CATEGORIA</p>
+          </div>
+          <div class="col-sm">
+            <p>SUB-CATEGORIA</p>
+          </div>
+          <div class="col-sm">
+            <p>PREÇO</p>
+          </div>
+        </div>
+        <!-- DATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASE -->
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Chair, Reinforced</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Dining</p>
+              </div>
+              <div class="col-sm">
+                <p>Chairs</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Chair, Practical</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Dining</p>
+              </div>
+              <div class="col-sm">
+                <p>Chairs</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Stool, Practical</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Stools</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Vent, Octagonal Fan</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Machinery</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Switch, Sturdy</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Machinery</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row" id="teste">
+              <div class="col-lg">
+                <p>Clockwork Control Panel, Single</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Machinery</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Crate, Large Open</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Cargo</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Crate, Large Closed</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Cargo</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <p>Clockwork Barrel, Sealed</p>
+              </div>
+              <div class="col-sm">
+                <p>Clockwork</p>
+              </div>
+              <div class="col-sm">
+                <p>Workshop</p>
+              </div>
+              <div class="col-sm">
+                <p>Cargo</p>
+              </div>
+              <div class="col-sm">
+                <p>PREÇO</p>
+              </div>
+            </div>
+
+
+        </div>
+        <div class=" col-sm-1-12 text-center p-2">
+          <div class="" id="teste2" style="display: none">
+          <img src="Images/Items/Clockwork-Control-Panel-Single.jpg" alt="" width="200px" class="border border-5 border-purple rounded">
+          <p>7x Decorative Wax</p>
+          <p>10x Bast</p>
+          <p>3x Mastic</p>
+          <p>2x Culanda Lacquer</p>
+          <p>13x Heartwood</p>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- DATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASEDATABASE -->
+
+    </div>
+
+
+    <div class="row my-2">
+      <div class="col-lg md-5 bg-light">
+
+        <div class="row">
+          <div class="col-sm pl-3">
+            <p>Item</p>
+          </div>
+          <div class="col-sm text-center">
+            <p>QTY</p>
+          </div>
+          <div class="col-sm text-right">
+            <p>PREÇO</p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm">
+            <p>Clockwork Chair, Practical</p>
+          </div>
+          <div class="col-sm text-center">
+            <p>3</p>
+          </div>
+          <div class="col-sm text-right">
+            <p>6400</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <p>Clockwork Stool, Practical</p>
+          </div>
+          <div class="col-sm text-center">
+            <p>2</p>
+          </div>
+          <div class="col-sm text-right">
+            <p>3200</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-2-12 bg-light ml-5 text-center">
+        <div class="container">
+          <p>Items: 5</p>
+          <p>Preço: 9600</p>
+        </div>
+        <div class="container">
+          <button class="btn btn-outline-dark pl-5 pr-5 bg-light" type="submit">Comprar</button>
+        </div>
+        <div class="container">
+          <button class="btn btn-outline-dark pl-5 pr-5 bg-light" type="submit">Limpar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

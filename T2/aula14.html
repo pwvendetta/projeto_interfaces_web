@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Aula 14</title>
+  <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+
+  <!-- IMPORTAÇÃO DO JS -->
+  <script src="JS/jquery-3.4.1.js" charset="utf-8"></script>
+  <!-- UTILIZAÇÃO DO JavaScript E jQuery -->
+  <script>
+  $(document).ready( function(){
+
+    $('#btnEsconderTudo').click( function(){
+      $("p").hide();
+    });
+
+    $('#btnEsconderP2').hover(function(){
+      $("#p2").hide();
+    });
+
+    $('#btnMostrar').click( function(){
+      $("p").show();
+    });
+
+
+
+    $('#btnPessoais').click(function(){
+      $('#dadosPessoais').show();
+      $('#dadosContato').hide();
+      $('#dadosAcademicos').hide();
+    });
+
+    $('#btnContato').click(function(){
+      $('#dadosPessoais').hide();
+      $('#dadosContato').show();
+      $('#dadosAcademicos').hide();
+    });
+
+    $('#btnAcademicos').click(function(){
+      $('#dadosPessoais').hide();
+      $('#dadosContato').hide();
+      $('#dadosAcademicos').show();
+    });
+
+    // alert("FUNCIONOU!");
+  } );
+  </script>
+
+</head>
+<body>
+  <div class="container">
+    <h2>jQuery</h2>
+
+    <p>P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1</p>
+    <p id="p2">P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2P2</p>
+    <p>P3P3P3P3P3P3P3P3P3P3P3P3P3P3P3</p>
+
+    <button type="button" class="btn btn-primary" id="btnEsconderTudo">Esconder Tudo</button>
+    <button type="button" class="btn btn-warning" id="btnEsconderP2">Esconder P2</button>
+    <button type="button" class="btn btn-danger" id="btnMostrar">Mostrar Tudo</button>
+
+
+
+<hr>
+<h2>Abas</h2>
+<button type="button" class="btn btn-secondary" id="btnPessoais">Dados Pessoais</button>
+<button type="button" class="btn btn-secondary" id="btnContato">Dados de Contato</button>
+<button type="button" class="btn btn-secondary" id="btnAcademicos">Dados Academicos</button>
+
+<div class="container" id="dadosPessoais">
+  <p>DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS</p>
+  <p>DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS</p>
+  <p>DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS</p>
+  <p>DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS DADOSPESSOAIS</p>
+</div>
+<div class="container" id="dadosContato" style="display : none">
+  <p>DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO</p>
+  <p>DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO</p>
+  <p>DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO</p>
+  <p>DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO</p>
+  <p>DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO</p>
+  <p>DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO DADOSCONTATO</p>
+</div>
+<div class="container" id="dadosAcademicos"  style="display : none">
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+  <p>DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS DADOSACADEMICOS</p>
+</div>
+
+
+
+
+
+  </div>
+</body>
+</html>
