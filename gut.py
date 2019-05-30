@@ -33,3 +33,5 @@ os.system('git commit -m "'+msg_commit+'"')
 
 print("Conectando com os servidores do Github...\n")
 os.system('git push origin master')
+
+print("Encerrado...\n")
